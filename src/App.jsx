@@ -1,11 +1,12 @@
 import './App.css'
+import Daisynav from './components/Daisynav/Daisynav'
 
 function App() {
 
 
   return (
     <>
-      <h2 className='text-7xl text-rose-400 text-center'>hii</h2>
+      <Daisynav></Daisynav>
     </>
   )
 }
