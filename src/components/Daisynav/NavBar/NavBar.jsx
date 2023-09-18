@@ -14,7 +14,7 @@ const NavBar = () => {
       ];
       
     return (
-        <nav>
+        <nav className="p-4">
         <div className="md:hidden text-2xl" onClick={()=> setOpen(!open)}>
         {
             open === true ? <AiOutlineClose></AiOutlineClose> 
@@ -23,7 +23,7 @@ const NavBar = () => {
         }
         
         </div>
-           <ul className="md:flex">
+           <ul className={`md:flex duration-1000 absolute md:static ${open ? 'top-10': '-top-60'}`}>
            {
                 routers.map(route => <Link key={route.id} route={route}></Link>)
             }
