@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "optionName": "Basic Membership",
+      "price": 30,
+      "features": [
+        "Access to gym facilities",
+        "Unlimited cardio equipment usage",
+        "Locker room access",
+        "Basic fitness classes"
+      ]
+    },
+    {
+      "id": 2,
+      "optionName": "Premium Membership",
+      "price": 60,
+      "features": [
+        "Access to gym facilities",
+        "Unlimited cardio equipment usage",
+        "Locker room access",
+        "Access to all fitness classes",
+        "Personal trainer consultation (once a month)"
+      ]
+    },
+    {
+      "id": 3,
+      "optionName": "Family Membership",
+      "price": 100,
+      "features": [
+        "Access to gym facilities for the entire family",
+        "Unlimited cardio equipment usage",
+        "Locker room access",
+        "Access to all fitness classes",
+        "Childcare services",
+        "Family fitness classes"
+      ]
+    }
+  ]
+  
